@@ -1,2 +1,1 @@
-# ujipret
-Html and js example
+# Whatsapp Gaes
