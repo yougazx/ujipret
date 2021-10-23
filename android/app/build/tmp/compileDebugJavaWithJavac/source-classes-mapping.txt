@@ -1,0 +1,14 @@
+com/testing360/MainApplication.java
+ com.testing360.MainApplication
+ com.testing360.MainApplication$1
+com/testing360/MainActivity.java
+ com.testing360.MainActivity
+com/testing360/BuildConfig.java
+ com.testing360.BuildConfig
+com/testing360/ReactNativeFlipper.java
+ com.testing360.ReactNativeFlipper
+ com.testing360.ReactNativeFlipper$1
+ com.testing360.ReactNativeFlipper$2
+ com.testing360.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
