@@ -9,9 +9,7 @@
 import React, { useRef } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { WebView } from "react-native-webview";
-import { createStackNavigator } from "@react-navigation/stack";
 
-const { Navigator, Screen } = createStackNavigator();
 const INJECTEDJAVASCRIPT =
   "const meta = document.createElement('meta'); meta.setAttribute('content', 'width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=0'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta); ";
 
