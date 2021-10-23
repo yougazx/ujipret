@@ -11,17 +11,22 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
-import Menu from "./src/Menu";
-import VirtualRoom from "./src/VirtualRoom";
-import ImageRoom from "./src/ImageRoom";
+import Whatsapp from "./src/Whatsapp";
 
 const { Navigator, Screen } = createStackNavigator();
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello :*</Text>
-    </View>
+    <NavigationContainer style={{ flex: 1 }}>
+      <Navigator
+        screenOptions={{
+          title: "Whatsapp"
+        }}
+        initialRouteName="Whatsapp"
+      >
+        <Screen name="Whatsapp" component={Whatsapp} />
+      </Navigator>
+    </NavigationContainer>
   );
 };
 
